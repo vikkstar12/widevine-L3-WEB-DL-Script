@@ -85,6 +85,7 @@ if delete_choice == 1:
     os.remove("encrypted.mp4")
     os.remove("decrypted.m4a")
     os.remove("decrypted.mp4")
+    os.remove("keys.json")
     try:    
         os.remove("en.srt")
     except:
